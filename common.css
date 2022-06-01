@@ -12,7 +12,7 @@ body, .ui, .tooltip {
 
 @supports (font-variation-settings: normal) {
     body, .ui, .tooltip {
-        font-family: "Inter (var)", "Helvetica Neue", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        font-family: "Inter var", "Helvetica Neue", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
 }
 
