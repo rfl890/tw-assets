@@ -1,22 +1,22 @@
 /* Twitter Chirp fonts */
 @font-face {
     font-family: "Twitter Chirp";
-    src: url("/chirp-regular-web.woff");
+    src: url("https://cdn.jsdelivr.net/gh/rfl890/tw-assets@329c136/chirp-regular-web.woff");
     font-weight: normal;
 }
 @font-face {
     font-family: "Twitter Chirp";
-    src: url("/chirp-medium-web.woff");
+    src: url("https://cdn.jsdelivr.net/gh/rfl890/tw-assets@329c136/chirp-medium-web.woff");
     font-weight: 500;
 }
 @font-face {
     font-family: "Twitter Chirp";
-    src: url("/chirp-bold-web.woff");
+    src: url("https://cdn.jsdelivr.net/gh/rfl890/tw-assets@329c136/chirp-bold-web.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: "Twitter Chirp";
-    src: url("/chirp-heavy-web.woff");
+    src: url("https://cdn.jsdelivr.net/gh/rfl890/tw-assets@329c136/chirp-heavy-web.woff");
     font-weight: 900;
 }
 
