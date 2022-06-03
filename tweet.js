@@ -99,7 +99,7 @@ function toggleEditing() {
         if (total === 0) $("#tweetNumbers").hide();
 
         $("#previewButton").html('<i class="fas fa-edit"></i>  Edit image');
-        if (useTwemoji) twemoji.parse(document.getElementById("tweetContainer"), {base: "/c/twemoji/assets/"});
+        if (useTwemoji) twemoji.parse(document.getElementById("tweetContainer"), {base: "https://twemoji.maxcdn.com/v/14.0.2/"});
         tweetParsed = $("#tweetContainer").html();
     } else {
         if (tweetRaw && tweetParsed) $("#tweetContainer").html(tweetRaw);
@@ -161,7 +161,7 @@ function changeEmoji() {
 
 function resetPfp() {
     $("#pfpFiles").val("");
-    $("#pfp").attr("src", "/c/default-pfp.png");
+    $("#pfp").attr("src", "https://cdn.jsdelivr.net/gh/rfl890/tw-assets@9df6d6a/default-pfp.png");
 }
 
 function updatePfp() {
@@ -170,7 +170,7 @@ function updatePfp() {
         let fileBlob = URL.createObjectURL(file);
         $("#pfp").attr("src", fileBlob);
     } else {
-        $("#pfp").attr("src", "/c/default-pfp.png");
+        $("#pfp").attr("src", "https://cdn.jsdelivr.net/gh/rfl890/tw-assets@9df6d6a/default-pfp.png");
     }
 }
 
